@@ -1,0 +1,30 @@
+.marca {
+    font-family : 'Roboto', sans-serif;
+    font-size : 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+.somos {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .marca{
+        font-size: 2rem;
+    }
+    
+    .titulo {
+      font-size: 1.5rem;
+    }
+
+    .somos {
+        font-size: 1rem;
+    }
+  }
