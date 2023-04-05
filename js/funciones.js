@@ -34,11 +34,6 @@ function validarFormulario(formulario) {
             Vacios.push("Ciudad");
         }
 
-        // Verifica si el campo inputState está vacío
-        const region = formulario.inputState.value.trim();
-        if (region === "Escoje...") {
-            Vacios.push("Region");
-        }
 
         // Verifica si el campo inputZip está vacío
         const cpostal = formulario.inputZip.value.trim();
